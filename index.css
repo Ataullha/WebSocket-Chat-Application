@@ -1,16 +1,26 @@
  /* Simple CSS to style the chat window and input box */
+
  body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
+
+ button {
+    width: 8%;
+    height: 25px;
+ }
+
 #chat {
-    width: 300px;
+    /* width: 300px; */
     height: 200px;
     border: 1px solid #ccc;
     padding: 10px;
     overflow-y: scroll;
     margin-bottom: 10px;
 }
+
 #message {
-    width: 200px;
+    width: 90%;
+    height: 20px;
 }
+
